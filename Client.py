@@ -5,7 +5,7 @@ host = socket.gethostname()     # Get local machine name
 port = 5554                   # Reserve a port for your service.
 
 s.connect(('127.0.0.1', port))
-s.send("google.com")
+s.send("baidu.com")
 
 with open('received_file', 'wb') as f:
     print 'file opened'
